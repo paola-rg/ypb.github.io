@@ -1,0 +1,20 @@
+.card-img{
+    width: 250px;
+    height: 250px;
+    font-family: cursive;
+}
+header {
+    background-color: #cab388;
+    color: black;
+    border: #BEB2A7;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+  }
+  body{
+    background-color: #e0d4bb;
+  }
+  h1{
+    font-style: italic;
+    font-size: 50px;
+  }

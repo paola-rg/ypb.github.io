@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras - Máximo 50 Compras</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-rhz5Nj3rb6Ygv3SXW1Ih3LZDE4CAFjS2Td5ceOG6g4+qEYpw2YNh8JpUflIZFJ9oP1c1xZMXtMYeudYOuX7SmQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style-18.css">
+  <style>
+    body{
+  background: #c8cac0;
+}
+  </style>
+</head>
+<body>
+  
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>Productos Disponibles <h6>(el precio es en $USD)</h6> </h2>
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="product">
+                  <img src="ah/ah2.jpg" class="img-fluid" alt="Producto 1">
+                  <h4>Producto 1</h4>
+                  <p>Precio: $ 7.34</p>
+                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="product">
+                  <img src="ah/ah20.jpg" class="img-fluid" alt="Producto 2">
+                  <h4>Producto 2</h4>
+                  <p>Precio: $ 19.89</p>
+                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="product">
+                  <img src="ah/ah30.jpg" class="img-fluid" alt="Producto 3">
+                  <h4>Producto 3</h4>
+                  <p>Precio: $19.89</p>
+                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                </div>
+              </div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="product">
+                              <img src="am/am3.jpg" class="img-fluid" alt="Producto 1">
+                              <h4>Producto 4</h4>
+                              <p>Precio: $ 4.00</p>
+                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="product">
+                              <img src="am/am11.jpg" class="img-fluid" alt="Producto 2">
+                              <h4>Producto 5</h4>
+                              <p>Precio: $ 17.55</p>
+                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="product">
+                              <img src="am/am18.jpg" class="img-fluid" alt="Producto 3">
+                              <h4>Producto 6</h4>
+                              <p>Precio: $ 18.55</p>
+                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                            </div>
+                          </div>
+                          <div class="card-body">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="product">
+                                  <img src="am/am11.jpg" class="img-fluid" alt="Producto 1">
+                                  <h4>Producto 7</h4>
+                                  <p>Precio: $ 17.25</p>
+                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="product">
+                                  <img src="am/am18.jpg" class="img-fluid" alt="Producto 2">
+                                  <h4>Producto 8</h4>
+                                  <p>Precio: $ 18.55</p>
+                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="product">
+                                  <img src="bm/BM17.jpg" class="img-fluid" alt="Producto 3">
+                                  <h4>Producto 9</h4>
+                                  <p>Precio: $ 10.45</p>
+                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-md-4">
+                                    <div class="product">
+                                      <img src="bm/BM19.jpg" class="img-fluid" alt="Producto 1">
+                                      <h4>Producto 10</h4>
+                                      <p>Precio: $ 15.45</p>
+                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="product">
+                                      <img src="bm/BM15.jpg" class="img-fluid" alt="Producto 2">
+                                      <h4>Producto 11</h4>
+                                      <p>Precio: $ 10.95 </p>
+                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="product">
+                                      <img src="h/h5.jpg" class="img-fluid" alt="Producto 3">
+                                      <h4>Producto 12</h4>
+                                      <p>Precio: $ 10.99 </p>
+                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                    </div>
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-md-4">
+                                        <div class="product">
+                                          <img src="h/h6.jpg" class="img-fluid" alt="Producto 1">
+                                          <h4>Producto 13</h4>
+                                          <p>Precio: $ 10.99</p>
+                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="product">
+                                          <img src="h/h17.jpg" class="img-fluid" alt="Producto 2">
+                                          <h4>Producto 14</h4>
+                                          <p>Precio: $ 12.99</p>
+                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="product">
+                                          <img src="L/L2.jpg" class="img-fluid" alt="Producto 3">
+                                          <h4>Producto 15</h4>
+                                          <p>Precio: $ 12.55</p>
+                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                        </div>
+                                      </div><div class="card-body">
+                                        <div class="row">
+                                          <div class="col-md-4">
+                                            <div class="product">
+                                              <img src="L/L18.jpg" class="img-fluid" alt="Producto 1">
+                                              <h4>Producto 16</h4>
+                                              <p>Precio: $ 9.99</p>
+                                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                            <div class="product">
+                                              <img src="L/L15.jpg" class="img-fluid" alt="Producto 2">
+                                              <h4>Producto 17</h4>
+                                              <p>Precio: $ 11.49</p>
+                                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                            <div class="product">
+                                              <img src="le/le8.jpg" class="img-fluid" alt="Producto 3">
+                                              <h4>Producto 18</h4>
+                                              <p>Precio: $ 5.55</p>
+                                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                            </div>
+                                          </div><div class="card-body">
+                                            <div class="row">
+                                              <div class="col-md-4">
+                                                <div class="product">
+                                                  <img src="le/le6.jpg" class="img-fluid" alt="Producto 1">
+                                                  <h4>Producto 19</h4>
+                                                  <p>Precio: $ 3.69</p>
+                                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-4">
+                                                <div class="product">
+                                                  <img src="le/le5.jpg" class="img-fluid" alt="Producto 2">
+                                                  <h4>Producto 20</h4>
+                                                  <p>Precio: $ 6.35</p>
+                                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-4">
+                                                <div class="product">
+                                                  <img src="M/m20.jpg" class="img-fluid" alt="Producto 3">
+                                                  <h4>Producto 21</h4>
+                                                  <p>Precio: $ 12.00</p>
+                                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                </div>
+                                              </div>
+                                              <div class="card-body">
+                                                <div class="row">
+                                                  <div class="col-md-4">
+                                                    <div class="product">
+                                                      <img src="M/m16.jpg" class="img-fluid" alt="Producto 1">
+                                                      <h4>Producto 22</h4>
+                                                      <p>Precio: $ 11.00</p>
+                                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-md-4">
+                                                    <div class="product">
+                                                      <img src="M/g4.jpg" class="img-fluid" alt="Producto 2">
+                                                      <h4>Producto 23</h4>
+                                                      <p>Precio: $ 16.20</p>
+                                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-md-4">
+                                                    <div class="product">
+                                                      <img src="R/r1.jpg" class="img-fluid" alt="Producto 3">
+                                                      <h4>Producto 24</h4>
+                                                      <p>Precio: $ 3.65</p>
+                                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                    </div>
+                                                  </div><div class="card-body">
+                                                    <div class="row">
+                                                      <div class="col-md-4">
+                                                        <div class="product">
+                                                          <img src="R/r3.jpg" class="img-fluid" alt="Producto 1">
+                                                          <h4>Producto 25</h4>
+                                                          <p>Precio: $ 5.25</p>
+                                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-md-4">
+                                                        <div class="product">
+                                                          <img src="R/rin1.jpg" class="img-fluid" alt="Producto 2">
+                                                          <h4>Producto 26</h4>
+                                                          <p>Precio: $ 3.99</p>
+                                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-md-4">
+                                                        <div class="product">
+                                                          <img src="R/rin2.jpg" class="img-fluid" alt="Producto 3">
+                                                          <h4>Producto 27</h4>
+                                                          <p>Precio: $ 4.67</p>
+                                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                        </div>
+                                                      </div><div class="card-body">
+                                                        <div class="row">
+                                                          <div class="col-md-4">
+                                                            <div class="product">
+                                                              <img src="R/ri3.jpg" class="img-fluid" alt="Producto 1">
+                                                              <h4>Producto 28</h4>
+                                                              <p>Precio: $ 4.99</p>
+                                                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                            </div>
+                                                          </div>
+                                                          <div class="col-md-4">
+                                                            <div class="product">
+                                                              <img src="R/ri5.jpg" class="img-fluid" alt="Producto 2">
+                                                              <h4>Producto 29</h4>
+                                                              <p>Precio: $ 5.66</p>
+                                                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                            </div>
+                                                          </div>
+                                                          <div class="col-md-4">
+                                                            <div class="product">
+                                                              <img src="rh/rh7.jpg" class="img-fluid" alt="Producto 3">
+                                                              <h4>Producto 30</h4>
+                                                              <p>Precio: $ 7.50</p>
+                                                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                            </div>
+                                                          </div>
+                                                          <div class="card-body">
+                                                            <div class="row">
+                                                              <div class="col-md-4">
+                                                                <div class="product">
+                                                                  <img src="rh/rh8.jpg" class="img-fluid" alt="Producto 1">
+                                                                  <h4>Producto 31</h4>
+                                                                  <p>Precio: $ 11.45</p>
+                                                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                </div>
+                                                              </div>
+                                                              <div class="col-md-4">
+                                                                <div class="product">
+                                                                  <img src="rh/rm5.jpg" class="img-fluid" alt="Producto 2">
+                                                                  <h4>Producto 32</h4>
+                                                                  <p>Precio: $ 9.25</p>
+                                                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                </div>
+                                                              </div>
+                                                              <div class="col-md-4">
+                                                                <div class="product">
+                                                                  <img src="rh/rm6.jpg" class="img-fluid" alt="Producto 3">
+                                                                  <h4>Producto 33</h4>
+                                                                  <p>Precio: $ 8.99 </p>
+                                                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                </div>
+                                                              </div>
+                                                              <div class="card-body">
+                                                                <div class="row">
+                                                                  <div class="col-md-4">
+                                                                    <div class="product">
+                                                                      <img src="SO/so16.jpg" class="img-fluid" alt="Producto 1">
+                                                                      <h4>Producto 34</h4>
+                                                                      <p>Precio: $ 18.20 </p>
+                                                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                    </div>
+                                                                  </div>
+                                                                  <div class="col-md-4">
+                                                                    <div class="product">
+                                                                      <img src="SO/so9.jpg" class="img-fluid" alt="Producto 2">
+                                                                      <h4>Producto 35</h4>
+                                                                      <p>Precio: $ 14.55 </p>
+                                                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                    </div>
+                                                                  </div>
+                                                                  <div class="col-md-4">
+                                                                    <div class="product">
+                                                                      <img src="SO/so6.jpg" class="img-fluid" alt="Producto 3">
+                                                                      <h4>Producto 36</h4>
+                                                                      <p>Precio: $ 15.78 </p>
+                                                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                    </div>
+                                                                  </div>
+                                                                  <div class="card-body">
+                                                                    <div class="row">
+                                                                      <div class="col-md-4">
+                                                                        <div class="product">
+                                                                          <img src="SYP/p1.jpg" class="img-fluid" alt="Producto 1">
+                                                                          <h4>Producto 37</h4>
+                                                                          <p>Precio: $ 11.58 </p>
+                                                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div class="col-md-4">
+                                                                        <div class="product">
+                                                                          <img src="SYP/p2.jpg" class="img-fluid" alt="Producto 2">
+                                                                          <h4>Producto 38</h4>
+                                                                          <p>Precio: $ 8.99 </p>
+                                                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div class="col-md-4">
+                                                                        <div class="product">
+                                                                          <img src="SYP/p4.jpg" class="img-fluid" alt="Producto 3">
+                                                                          <h4>Producto 39</h4>
+                                                                          <p>Precio: $ 7.99 </p>
+                                                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                        </div>
+                                                                      </div><div class="card-body">
+                                                                        <div class="row">
+                                                                          <div class="col-md-4">
+                                                                            <div class="product">
+                                                                              <img src="SYP/s1.jpg" class="img-fluid" alt="Producto 1">
+                                                                              <h4>Producto 40</h4>
+                                                                              <p>Precio: $ 11.35 </p>
+                                                                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-md-4">
+                                                                            <div class="product">
+                                                                              <img src="SYP/s3.jpg" class="img-fluid" alt="Producto 2">
+                                                                              <h4>Producto 41</h4>
+                                                                              <p>Precio: $ 10.25 </p>
+                                                                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-md-4">
+                                                                            <div class="product">
+                                                                              <img src="SYP/s6.jpg" class="img-fluid" alt="Producto 3">
+                                                                              <h4>Producto 42</h4>
+                                                                              <p>Precio: $ 12.57</p>
+                                                                              <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                            </div>
+                                                                          </div><div class="card-body">
+                                                                            <div class="row">
+                                                                              <div class="col-md-4">
+                                                                                <div class="product">
+                                                                                  <img src="t/tn1.jpg" class="img-fluid" alt="Producto 1">
+                                                                                  <h4>Producto 43</h4>
+                                                                                  <p>Precio: $ 64.00</p>
+                                                                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-md-4">
+                                                                                <div class="product">
+                                                                                  <img src="t/tn37.jpg" class="img-fluid" alt="Producto 2">
+                                                                                  <h4>Producto 44</h4>
+                                                                                  <p>Precio: $ 67.55 </p>
+                                                                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-md-4">
+                                                                                <div class="product">
+                                                                                  <img src="t/tn36.jpg" class="img-fluid" alt="Producto 3">
+                                                                                  <h4>Producto 45</h4>
+                                                                                  <p>Precio: $ 59.00</p>
+                                                                                  <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                                </div>
+                                                                              </div><div class="card-body">
+                                                                                <div class="row">
+                                                                                  <div class="col-md-4">
+                                                                                    <div class="product">
+                                                                                      <img src="t/tn32.jpg" class="img-fluid" alt="Producto 1">
+                                                                                      <h4>Producto 46</h4>
+                                                                                      <p>Precio: $ 79.10 </p>
+                                                                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  <div class="col-md-4">
+                                                                                    <div class="product">
+                                                                                      <img src="t/tn5.jpg" class="img-fluid" alt="Producto 2">
+                                                                                      <h4>Producto 47</h4>
+                                                                                      <p>Precio: $ 58.99 </p>
+                                                                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  <div class="col-md-4">
+                                                                                    <div class="product">
+                                                                                      <img src="t/tn3.jpg" class="img-fluid" alt="Producto 3">
+                                                                                      <h4>Producto 48</h4>
+                                                                                      <p>Precio: $ 58.59 </p>
+                                                                                      <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                                    </div>
+                                                                                  </div><div class="card-body">
+                                                                                    <div class="row">
+                                                                                      <div class="col-md-4">
+                                                                                        <div class="product">
+                                                                                          <img src="t/tn2.jpg" class="img-fluid" alt="Producto 1">
+                                                                                          <h4>Producto 49</h4>
+                                                                                          <p>Precio: $ 80.00 </p>
+                                                                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                      <div class="col-md-4">
+                                                                                        <div class="product">
+                                                                                          <img src="t/tn8.jpg" class="img-fluid" alt="Producto 2">
+                                                                                          <h4>Producto 50</h4>
+                                                                                          <p>Precio: $ 67.99 </p>
+                                                                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                      <div class="col-md-4">
+                                                                                        <div class="product">
+                                                                                          <img src="t/tn13.jpg" class="img-fluid" alt="Producto 3">
+                                                                                          <h4>Producto 51</h4>
+                                                                                          <p>Precio: $ 75.66 </p>
+                                                                                          <button class="btn btn-primary btn-sm addToCart">Agregar al Carrito</button>
+                                                                                        </div>
+                                                                                      </div>
+
+              <!-- Más productos aquí -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h2>Carrito de Compras</h2>
+        <ul id="cart" class="list-group">
+          <li class="list-group-item text-muted">Tu carrito está vacío</li>
+        </ul>
+        <div class="card mt-3">
+          <div class="card-body">
+            <strong>Total: </strong>$<span id="cart-total">0</span>
+            <button class="btn btn-success btn-block mt-3" id="checkoutBtn">Pagar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS y dependencias -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-SggpuYFwu4O9QwGxnjJbr+IHj3mmvkWq95zYTCuvwd/9WZ2g0NToxA6gtsF1XbUe" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+az/rGjA1BmS5Xu2K4+g4kzv8TXVJoZ+dF2" crossorigin="anonymous"></script>
+  <!-- JavaScript personalizado -->
+  <script src="scripts.js"></script>
+</body>
+</html>

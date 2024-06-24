@@ -1,0 +1,39 @@
+header {
+  background-color: #d5c4a1;
+  color: black;
+  padding: 30px;
+  text-align: center;
+  margin: 20px;
+}
+.carousel-inner img {
+  width: 550px;
+  height: 500px;
+}
+
+  .button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    background: none;
+}
+.carrusel-item{
+  height: 500px;
+  width: 500px;
+}
+.margen{
+  margin: 20px;
+}
+
+.carrusel-item{
+  width: 550px;
+  height: 500px;
+}
+.card-img{
+  width: 150px;
+  height: 250px;
+  font-family: cursive;
+}
+.float-rigth{
+  float: right;
+}
